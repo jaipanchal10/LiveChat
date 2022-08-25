@@ -1,0 +1,94 @@
+body {
+    height: 98vh;
+    background-image: linear-gradient(rgb(69, 165, 209), rgb(150, 247, 150));
+  }
+
+  h1{
+      margin: 4px; 
+      font-size: 34px;
+      color: white;
+      font-family: 'Baloo 2', cursive;
+      text-align: center;
+  }
+
+    .logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+
+  #message-container {
+    max-width: 955px;
+    border-radius: 38px;
+    margin: auto;
+    height: 64vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 1px;
+    background-color: #315264;
+  }
+
+
+
+  #message-container div{
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .left {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: 2px solid #7e878c;
+    background-color: #858e92;
+    border-radius: 82px;
+    margin: 4px 10px;
+    font-size: 17px;
+    float: left;
+    clear: both;
+  }
+  
+  .right {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: 2px solid #2791cf;
+    background-color: #2791cf;
+    margin: 4px 10px;
+    border-radius: 82px;
+    float: right;
+    clear: both;
+  }
+
+  #send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #message-input {
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 82px;
+    height: 34px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #send-button{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    color: white;
+    background-color: #2791cf;
+    border: 2px solid #2791cf;
+    border-radius: 20px;
+    height: 34px;
+    font-size: 14px;
+    
+    font-family: 'Poppins', sans-serif;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat App</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" 
+rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <nav>
+    <img class="logo" src="icons8-whatsapp-100.png" alt="">
+    <h1>Welcome to LiveChat</h1>
+    
+</nav>
+
+  <div id="message-container"></div>
+  <form id="send-container">
+    <input type="text" id="message-input" placeholder="Message">
+    <button type="submit" id="send-button"> <b>Send</b> </button>
+  </form>
+</body>
+</html>
